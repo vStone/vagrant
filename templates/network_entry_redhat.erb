@@ -3,6 +3,7 @@
 # Please do not modify any of these contents.
 BOOTPROTO=static
 DHCPCLASS=
+HWADDR=<%= net_options[:mac] %>
 IPADDR=<%= net_options[:ip] %>
 NETMASK=<%= net_options[:netmask] %>
 DEVICE=eth<%= net_options[:adapter] %>
